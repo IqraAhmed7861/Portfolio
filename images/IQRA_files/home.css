@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Staatliches", serif;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(9,106,97);
+    padding: 30px;
+
+}
+.logo>img {
+    width: 150px;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+ul>li{
+    list-style-type: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: rgb(176,207,204); 
+}
+ul>li>a:hover{
+    color: white;
+}
+.social-link{
+    display: flex;
+    gap: 30px;
+}
+.social-link>a>img {
+    width: 30px;
+}
+
+
+/* Navbar Ended */
+
+/* Hero */
+.hero{
+    background-color: rgb(9,106,97);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.personal-detail>h3{
+    color: white;
+    font-size: 24px;
+}
+.personal-detail>h1{
+    color: white;
+    font-size: 120px;
+    line-height: 0.9em;
+    text-transform: uppercase;
+}
+.personal-detail>p{
+    color: rgb(176,207,204); 
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.work-detail{
+    color: rgb(176,207,204);
+    font-size: 24px;
+
+}
+.year>h1{
+    color: white;
+    margin-left: 9rem;
+}
+.project>h3{
+    margin-left: 4rem;
+}
+.project>h1{
+    color: white;
+    margin-left: 8.5rem;
+
+}
+.client>h3{
+    margin-left: 7.5rem;
+
+}
+.client>h1{
+    color: white;
+    margin-left: 9.5rem;
+
+}
+.img{
+    height: 500px;
+    border-radius: 175px; 
+    overflow: hidden;
+    position: relative;
+    top: 90px;
+}
+.img>img{
+    background-color:#FDD746;
+    display: block;
+    height: 100%;
+    width: 100% ;
+    object-fit: cover;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+.box>img , .box1>img{
+    width: 70px;
+
+}
+.box{
+    text-align: center;
+    border:1px solid rgb(176,207,204);
+    padding:20px;
+    height: 200px;
+    border-radius: 2rem;
+}
+
+.box1{
+    text-align: center;
+    border:1px solid rgb(176,207,204);
+    padding:30px;
+    height: 200px;
+    border-radius: 2rem;
+}
